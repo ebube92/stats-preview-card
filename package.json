@@ -1,0 +1,24 @@
+{
+  "name": "stats-preview-card",
+  "version": "1.0.0",
+  "description": "",
+  "homepage": "https://github.com/ebube92/stats-preview-card#readme",
+  "bugs": {
+    "url": "https://github.com/ebube92/stats-preview-card/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebube92/stats-preview-card.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.1.12",
+    "tailwindcss": "^4.1.12"
+  }
+}
