@@ -199,6 +199,9 @@
   .w-\[858\] {
     width: 858;
   }
+  .w-full {
+    width: 100%;
+  }
   .border-collapse {
     border-collapse: collapse;
   }
@@ -240,6 +243,15 @@
   .bg-span {
     background-color: var(--color-span);
   }
+  .bg-contain {
+    background-size: contain;
+  }
+  .bg-cover {
+    background-size: cover;
+  }
+  .object-cover {
+    object-fit: cover;
+  }
   .p-6 {
     padding: calc(var(--spacing) * 6);
   }
@@ -272,6 +284,11 @@
   .outline {
     outline-style: var(--tw-outline-style);
     outline-width: 1px;
+  }
+  .md\:w-\[70\%\] {
+    @media (width >= 48rem) {
+      width: 70%;
+    }
   }
   .md\:w-\[80\%\] {
     @media (width >= 48rem) {
